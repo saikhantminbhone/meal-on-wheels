@@ -1,0 +1,43 @@
+{
+    "firstname" : "Eden",
+    "lastname" : "Harzad",
+    "birthday" : "12/05/2022",
+    "email" : "eden@gamil.com",
+    "password" : "eden",
+    "phonenumber" : "09123123123",
+    "address" : "Yangon",
+    "city" : "Yangon",
+    "nrc" : "12/AaTaTa(N)0123123",
+    "reason" : "adfasdf",
+    "available_date" : "Monday"
+}
+
+
+$query = 'INSERT INTO caregivers (firstname, lastname, birthday, email, password, phonenumber, address, city, nrc, reason, available_date) 
+        VALUES 
+        (Eden, Harzard, 12/01/1991, eden@gmail.com, eden, 0912312, Yangon,Yangon, ad, adfad, Monday)';
+
+
+
+$query = 'INSERT INTO '.$this->table.' SET firstname= $this->firstname, lastname = :lastname, birthday = :birthday, email = :email, password = :password, phonenumber = :phonenumber, address = :address, city = :city, nrc = :nrc, reason = :reason, available_date = :available_date';
+
+
+$query = "INSERT INTO caregivers (firstname, lastname, birthday, email, password, phonenumber, address, city, nrc, reason, available_date) 
+        VALUES ('Aung', 'Thu', 'adfad', 'adf', 'adf', 'adf', 'adf', 'asdf', 'adfads', 'asdf', 'asdfds'";
+
+$query = 'INSERT INTO caregivers (firstname, lastname, birthday, email, password, phonenumber, address, city, nrc, reason, available_date) 
+        VALUES 
+        ("Eden", "Harzard", "12/01/1991", "eden@gmail.com", "eden", "0912312", "Yangon","Yangon", "ad", "adfad", "Monday")';
+
+
+        -- SELECT
+--     *
+-- FROM
+--     order_meal
+-- 	LEFT JOIN orders ON order_meal.order_id = orders.order_id
+--     LEFT JOIN meals ON meals.meal_id = order_meal.meal_id
+-- WHERE
+-- 	orders.order_id=1
+
+
+-- SELECT * FROM caregivers
